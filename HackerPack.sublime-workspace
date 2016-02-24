@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"view",
+				"viewChange"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"reco",
+				"record2"
+			],
+			[
+				"str",
+				"stringpast"
+			],
+			[
+				"make",
+				"makeCashRain"
+			],
+			[
+				"primar",
+				"primary_account"
+			],
+			[
+				"Wallet",
+				"Wallet_2_address"
+			],
+			[
+				"API",
+				"API_SECRET"
+			],
+			[
+				"API_",
+				"API_SECRET"
+			],
+			[
+				"cen",
+				"centroidString"
+			],
+			[
+				"waypoints",
+				"waypoints_limit"
+			],
+			[
+				"js",
+				"jsonData"
+			],
+			[
+				"restauran",
+				"restaurants_id"
+			],
+			[
+				"open",
+				"open_restaurants"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"su",
+				"SurveyResponses"
+			],
+			[
+				"Cho",
+				"CHOICES"
+			],
+			[
+				"tem",
+				"TEMPLATES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1500,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "terminology.html",
+			"settings":
+			{
+				"buffer_size": 1550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "beginner-projects.html",
+			"settings":
+			{
+				"buffer_size": 2223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/projects.css",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "indentation",
+		"selected_items":
+		[
+			[
+				"indentation",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Linhchi/HackerPack",
+		"/Users/Linhchi/HackerPack/assets",
+		"/Users/Linhchi/HackerPack/assets/css",
+		"/Users/Linhchi/HackerPack/images"
+	],
+	"file_history":
+	[
+		"/Users/Linhchi/HackerPack/first-hackathon.html",
+		"/Users/Linhchi/HackerPack/best-hackathons.html",
+		"/Users/Linhchi/HackerPack/terminology.html",
+		"/Users/Linhchi/HackerPack/resources.html",
+		"/Users/Linhchi/HackerPack/about.html",
+		"/Users/Linhchi/HackerPack/assets/css/main.css",
+		"/Users/Linhchi/HackerPack/beginner-projects.html",
+		"/Users/Linhchi/HackerPack/beginnerprojects.html",
+		"/Users/Linhchi/HackerPack/firsthackathon.html",
+		"/Users/Linhchi/YouCoin/index.html",
+		"/Users/Linhchi/Documents/l8ZdT4t6T8/index.html",
+		"/Users/Linhchi/HopHacks/templates/base2.html",
+		"/Users/Linhchi/HopHacks/static/css/bootstrap.min.css",
+		"/Users/Linhchi/HopHacks/templates/hello.html",
+		"/Users/Linhchi/HopHacks Winter 2016/youcoinsupreme.py",
+		"/Users/Linhchi/untitled folder 2/server.js",
+		"/Users/Linhchi/untitled folder 2/helloworld.js",
+		"/Users/Linhchi/lowpolybackground/lowpoly.js",
+		"/Users/Linhchi/lowpolybackground/stylesheet.css",
+		"/Users/Linhchi/lowpolybackground/index.html",
+		"/Users/Linhchi/untitled folder/kmeans.py",
+		"/Users/Linhchi/untitled folder/placerequest.py",
+		"/Users/Linhchi/untitled folder/kmeantest.py",
+		"/Users/Linhchi/untitled folder/kmean.py",
+		"/Users/Linhchi/Documents/html5up-spectral copy/index.html",
+		"/Users/Linhchi/Documents/object-master/objects/test/object.css",
+		"/Users/Linhchi/Documents/object-master/objects/hello/object.js",
+		"/Users/Linhchi/Documents/object-master/objects/hello/index.html",
+		"/Users/Linhchi/PSY306/index.html",
+		"/Users/Linhchi/PSY306website/index.html",
+		"/Users/Linhchi/LinhchiNguyen.github.io/stylesheet.css",
+		"/Users/Linhchi/LinhchiNguyen.github.io/index.html",
+		"/Users/Linhchi/voters/voterspref/survey/models.py",
+		"/Users/Linhchi/voters/voterspref/survey/forms.py",
+		"/Users/Linhchi/voters/voterspref/survey/views.py",
+		"/Users/Linhchi/voters/voterspref/templates/results.html",
+		"/Users/Linhchi/voters/voterspref/voterspref/urls.py",
+		"/Users/Linhchi/voters/voterspref/templates/results2.html",
+		"/Users/Linhchi/voters/voterspref/templates/some_template.html",
+		"/Users/Linhchi/voters/voterspref/voterspref/settings.py",
+		"/Users/Linhchi/voters/voterspref/templates/home.html",
+		"/Users/Linhchi/voters/voterspref/templates/results1.html",
+		"/Users/Linhchi/voters/voterspref/survey/backend.py",
+		"/Users/Linhchi/voters/voterspref/survey/dataprocessing.py",
+		"/Users/Linhchi/voters/voterspref/templates/education.html",
+		"/Users/Linhchi/voters/voterspref/templates/veterans.html",
+		"/Users/Linhchi/voters/voterspref/templates/globalwarming.html",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/styleform.css",
+		"/Users/Linhchi/voters/voterspref/templates/minimumwage.html",
+		"/Users/Linhchi/voters/voterspref/templates/healthcare.html",
+		"/Users/Linhchi/voters/voterspref/templates/dealthpenalty.html",
+		"/Users/Linhchi/voters/voterspref/templates/refugees.html",
+		"/Users/Linhchi/voters/voterspref/.gitignore",
+		"/Users/Linhchi/voters/voterspref/templates/marijuana.html",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/style.css",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/stylefacts.css",
+		"/Users/Linhchi/voters/voterspref/templates/abortions.html",
+		"/Users/Linhchi/voters/voterspref/templates/gunsrights.html",
+		"/Users/Linhchi/voters/.gitignore",
+		"/Users/Linhchi/voters/voterspref/survey/templates/some_template.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"br",
+			"png",
+			"col-xs-6",
+			"container-fluid",
+			"col",
+			"get_authe",
+			"inner",
+			"insideban",
+			"trocchi",
+			"h2",
+			"trocchi",
+			"open",
+			"trocchi",
+			"ABRIL",
+			"OREGANO",
+			"H2",
+			"h2",
+			"head",
+			"C1E1A6",
+			"A8CD1B",
+			"7CEECE",
+			"00cc99",
+			"66ffc2",
+			"2E3842",
+			"color",
+			"53",
+			"35465c",
+			"21b2a6",
+			"color",
+			"is-loading",
+			"10.png",
+			"background-color",
+			"10.png",
+			"3.png",
+			"Hexagon-3.jpg",
+			"container",
+			"ambient",
+			"press",
+			"press space",
+			"ambient",
+			"controls",
+			"openNow",
+			"opennow",
+			"print",
+			"main",
+			"footer",
+			"main",
+			"wrapper",
+			"main",
+			"header",
+			"avatar",
+			"wrapper",
+			"avatar",
+			"wrapper",
+			"is-load",
+			"static"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1321,
+								1321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "terminology.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1430,
+								1430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "beginner-projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1646,
+								1646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/projects.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "HackerPack.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,62 @@
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+
+/* for program */
+
+.btn-default{
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    border: 2px solid white;
+    color: white;
+    font-size: 36;
+}
+
+.clicked {
+  background-color: blue;
+}
+
+.jumbotron {
+	background-image:url('../../images/hacker.jpg');
+	color: red;
+  font-size: bold;
+	no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+    min-height:100%
+
+}
+
+.center1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+  
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}

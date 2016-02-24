@@ -1,0 +1,56 @@
+html, body {
+  		height: 100%;
+  		margin: 0;
+  	}
+
+body {
+    position: relative;
+
+}
+
+.affix {
+    top: 20px;
+}
+
+div.col-sm-9 div {
+    padding-top: 65px;
+    height: 500px;
+    font-size: 28px;
+}
+
+#section4{
+  padding-top: 0px;
+}
+
+ul.nav-pills { 
+    position: fixed;
+    padding-top: 65px;
+}
+
+/*@media screen and (max-width: 810px) {
+  #section1, #section2, #section3, #section41, #section42  {
+      margin-left: 150px;
+      padding-top: 65px;
+  }
+}*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+  
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
