@@ -8,6 +8,19 @@ body {
 
 }
 
+/* two main colors*/
+.hred{
+  color: #C21C31;
+  font-family: "Avenir Next" !important;
+  font-weight: bold;
+}
+
+.hgreen{
+  color: #589E07;
+  font-family: "Avenir Next" !important;
+  font-weight: bold;
+}
+
 .affix {
     top: 20px;
 }
@@ -45,13 +58,13 @@ ul.nav-pills {
 
 .navbar {
     margin-bottom: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
     border: 0;
-  
+    font-family: "Avenir Next" !important;
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: white !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -63,6 +76,38 @@ ul.nav-pills {
     border-color: transparent;
     color: #fff !important;
 }
+
+/*nav-pills*/
+
+.nav-pills {
+    margin-bottom: 0;
+    border: 0;
+    font-family: "Avenir Next" !important;
+}
+
+.nav-pills > li.active > a {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.nav-pills > li.active > a:hover {
+    background-color:rgba(0, 0, 0, 0.3);
+    color: black !important;
+}
+
+.nav-pills .active a:hover {
+  background-color:rgba(0, 0, 0, 0.3);
+    color: black !important;
+
+}
+.nav-pills > li > a{
+  color: black;
+}
+
+.nav>li>a:hover, 
+.nav>li>a:focus {
+    color: black ;
+}
+
 
 .box {
   width: 300px;
