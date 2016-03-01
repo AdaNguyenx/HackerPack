@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> </title>
+		<title>Bootstrap Case</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="assets/css/contribute.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		
+	</head>
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+
+	  		<div class="container-fluid">
+	    		<div class="navbar-header">
+				<a href = "index.html" class="navbar-brand" > <span class ="hred">Hacker</span><span class = "hgreen">Pack</span></a>
+	    		</div>
+	    		
+	    		<ul class="nav navbar-nav navbar-right">
+	    			<li><a href="about.html"> About </a></li>
+	    			<li><a href="terminology.html"> Common Terminology </a></li>
+	    			<li><a href="first-hackathon.html"> First Hackathon Prep</a></li>
+	    			<li><a href="beginner-projects.html"> Beginner Projects </a></li>
+	    			<li><a href="best-hackathons.html"> Best Hackathons </a></li>
+	    			<li><a href="resources.html"> Other Resources </a></li>	
+	    		</ul>
+	  		</div>
+		</nav>
+
+	<body class = "container-fluid editor">
+		<div class = "text-center"> <b> Our website supports <a href="https://daringfireball.net/projects/markdown/">Markdown</a> to allow easy formatting in submitting entry. Once you enter your post in the left field with Markdown formatting, the right field will allow you to see what it looks like in HTML. </b> </div>
+		<p> </p>
+		Submit your idea!
+			<section class="row">
+				<div class = "col-md-6">
+				<textarea rows="50" name="contribute" form="contribution" id="pad" required></textarea>
+				<form accept-charset="UTF-8" action="https://formkeep.com/f/a897eb51948f" method="POST" id="contribution">
+					Name
+					<input type="text" name="name" required>
+					Email
+				  	<input type="email" name="email" required>
+				  	<p>  </p>
+				  	<button type="submit" class="btn btn-primary"> Submit </button>
+				</form>
+
+		        
+		        
+		        </div>
+
+		        <div class="col-md-6" id="markdown"></div>
+		    </section>
+
+		    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
+		    <script src="script.js"></script>
+		
+
+
+
+	</body>
+</html>

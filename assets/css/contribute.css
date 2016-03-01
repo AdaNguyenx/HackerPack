@@ -1,8 +1,8 @@
 /*--------------------------------This should be the same for all tabs--------------------------------*/
 html, body {
-    		height: 100%;
-    		margin: 0;
-    	}
+            height: 100%;
+            font-family: "Avenir Next";
+        }
 
 /* two main colors*/
 .hred{
@@ -39,41 +39,32 @@ html, body {
     color: #fff !important;
 }
 /*------------------------------------------------End---------------------------------------------------*/
-
-/*.jumbotron {  
-	background-image:url('../../images/hacker.jpg');
-	color: red;
-  font-size: bold;
-	no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	width: 100%;
-    min-height:100%
-}*/
-
-/* Body for main page */
-img.logos{ 
-  max-width:20%;
-  max-height:20%;
+.row{
+    height:100%;
 }
 
-.center1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Avenir Next" !important;
-  font-size: 80px;
-  font-weight: bold;
+.editor{
+    padding-top: 65px !important;
+}
+#pad{
+
+    width:100%;
+/*    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;*/
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
+input {
+    width: 100%;
+}
 
-/* For the terminology tab */
-.terminology{
-  padding-top: 65px;
-  padding-left: 65px;
-  padding-right: 65px;
-  font-family: "Avenir Next" !important;
+#markdown {
+
+    overflow: auto;
+    border-left: 1px solid black;
 }
