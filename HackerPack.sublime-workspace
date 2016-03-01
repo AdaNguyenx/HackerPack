@@ -100,30 +100,6 @@
 	"buffers":
 	[
 		{
-			"file": "beginner-projects.html",
-			"settings":
-			{
-				"buffer_size": 8421,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/projects.css",
-			"settings":
-			{
-				"buffer_size": 2093,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contribute.html",
-			"settings":
-			{
-				"buffer_size": 2693,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "error.html",
 			"settings":
 			{
@@ -132,29 +108,43 @@
 			}
 		},
 		{
-			"file": "assets/css/contribute.css",
+			"file": "best-hackathons.html",
 			"settings":
 			{
-				"buffer_size": 1327,
-				"line_ending": "Unix",
-				"name": "html, body, section, .full-height {"
-			}
-		},
-		{
-			"file": "assets/css/main.css",
-			"settings":
-			{
-				"buffer_size": 1619,
+				"buffer_size": 1351,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "script.js",
+			"file": "first-hackathon.html",
 			"settings":
 			{
-				"buffer_size": 465,
-				"line_ending": "Unix",
-				"name": "window.onload = function() {"
+				"buffer_size": 1351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources.html",
+			"settings":
+			{
+				"buffer_size": 1355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "terminology.html",
+			"settings":
+			{
+				"buffer_size": 1936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 1355,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -201,15 +191,18 @@
 	],
 	"file_history":
 	[
-		"/Users/Linhchi/HackerPack/terminology.html",
-		"/Users/Linhchi/HackerPack/assets/css/projects.css",
 		"/Users/Linhchi/HackerPack/index.html",
+		"/Users/Linhchi/HackerPack/contribute.html",
+		"/Users/Linhchi/HackerPack/beginner-projects.html",
+		"/Users/Linhchi/HackerPack/script.js",
+		"/Users/Linhchi/HackerPack/assets/css/main.css",
+		"/Users/Linhchi/HackerPack/assets/css/contribute.css",
+		"/Users/Linhchi/HackerPack/assets/css/projects.css",
+		"/Users/Linhchi/HackerPack/terminology.html",
 		"/Users/Linhchi/HackerPack/resources.html",
 		"/Users/Linhchi/HackerPack/best-hackathons.html",
 		"/Users/Linhchi/HackerPack/first-hackathon.html",
 		"/Users/Linhchi/HackerPack/about.html",
-		"/Users/Linhchi/HackerPack/assets/css/main.css",
-		"/Users/Linhchi/HackerPack/beginner-projects.html",
 		"/Users/Linhchi/HackerPack/beginnerprojects.html",
 		"/Users/Linhchi/HackerPack/firsthackathon.html",
 		"/Users/Linhchi/YouCoin/index.html",
@@ -357,99 +350,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "beginner-projects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8003,
-								8003
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2619.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/css/projects.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2093,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1810,
-								1810
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "contribute.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2200,
-								2200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 394.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "error.html",
 					"semi_transient": false,
 					"settings":
@@ -477,95 +382,148 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/css/contribute.css",
+					"buffer": 1,
+					"file": "best-hackathons.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1327,
+						"buffer_size": 1351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1252,
-								1252
+								1322,
+								1322
 							]
 						],
 						"settings":
 						{
-							"auto_name": "html, body, section, .full-height {",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 441.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "first-hackathon.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1322,
+								1322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "assets/css/main.css",
+					"buffer": 3,
+					"file": "resources.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1619,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1463,
-								1287
+								1322,
+								1322
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 558.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								465,
-								465
-							]
-						],
-						"settings":
-						{
-							"auto_name": "window.onload = function() {",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "terminology.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1324,
+								1324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1322,
+								1322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
