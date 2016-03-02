@@ -56,8 +56,11 @@ html, body {
 
 /* Body for main page */
 img.logos{ 
-  max-width:20%;
-  max-height:20%;
+  position:relative;
+  height:auto;
+  width:auto;
+  max-width:40%;
+  max-height:40%;
 }
 
 .center1 {
@@ -68,6 +71,16 @@ img.logos{
   font-family: "Avenir Next" !important;
   font-size: 10vmin;
   font-weight: bold;
+}
+
+.container-table {
+    display: table;
+    height:100%;
+    font-size: 10vmin;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
