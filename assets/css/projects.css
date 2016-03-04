@@ -1,7 +1,8 @@
 /*--------------------------------This should be the same for all tabs--------------------------------*/
 html, body {
             height: 100%; 
-            font-family: "Avenir Next";   
+            font-family: "Avenir Next"; 
+
         }
 
 /* two main colors*/
@@ -44,6 +45,16 @@ body {
     position: relative;
 }
 
+.navprojects{
+  background-color: rgba(128, 128, 128, 0.3); 
+  background-image: url('images/background3.png');
+
+}
+
+h1{
+  color:white;
+}
+
 /* Vertical navigations */
 ul.nav-pills { 
     position: fixed;
@@ -72,6 +83,7 @@ ul.nav-pills {
 }
 .nav-pills > li > a{
   color: black;
+  font-weight: bold;
 }
 
 .nav>li>a:hover, 
@@ -80,7 +92,7 @@ ul.nav-pills {
 }
  /* Box customizations */
  .panel:hover {
-  background-color: #dfdfdf !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
 }
 
 div.col-sm-3 div {
@@ -88,9 +100,25 @@ div.col-sm-3 div {
     height: 200px;
 }
 
-div.well div {
-  height: 300px;
+.panel-primary{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color:#b3b3b3;
+  position: relative;
+}
+
+.cc{
+  position:absolute;
+  top:25%;
+  font-size:3vmin;
   
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #990000;
 }
 
 /* Section customizations*/
@@ -104,6 +132,7 @@ div.well div {
 
 p {
   font-size: 25px;
+  color: white;
 }
 
 .btn-xlarge {
