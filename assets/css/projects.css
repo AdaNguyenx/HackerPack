@@ -1,5 +1,6 @@
 /*--------------------------------This should be the same for all tabs--------------------------------*/
 html, body {
+            background-image: url('images/background3.png');
             height: 100%; 
             font-family: "Avenir Next"; 
 
@@ -46,9 +47,7 @@ body {
 }
 
 .navprojects{
-  background-color: rgba(128, 128, 128, 0.3); 
-  background-image: url('images/background3.png');
-
+  background-color: rgba(128, 128, 128, 0.09); 
 }
 
 h1{
