@@ -92,6 +92,7 @@ body {
 
 .navprojects{
   background-color: rgba(128, 128, 128, 0.09); 
+  padding-top: 65px;
 }
 
 h1{
@@ -99,32 +100,28 @@ h1{
 }
 
 /* Vertical navigations */
-ul.nav-pills { 
-    position: fixed;
-    padding-top: 65px;
-}
 
-.nav-pills {
+.nav-tabs {
     margin-bottom: 0;
     border: 0;
     font-family: "Avenir Next" !important;
 }
 
-.nav-pills > li.active > a {
-    background-color:rgba(0, 0, 0, 0.3);
+.nav-tabs > li.active > a {
+    background-color:white;
 }
 
-.nav-pills > li.active > a:hover {
-    background-color:rgba(0, 0, 0, 0.3);
+.nav-tabs > li.active > a:hover {
+    background-color:white;
     color: black !important;
 }
 
-.nav-pills .active a:hover {
-  background-color:rgba(0, 0, 0, 0.3);
-    color: black !important;
+.nav-tabs .active a:hover {
+  background-color:white;
+  color: black !important;
 
 }
-.nav-pills > li > a{
+.nav-tabs > li > a{
   color: black;
   font-weight: bold;
 }
@@ -168,7 +165,9 @@ a:hover{
 
 /* Section customizations*/
 #section1, #section2, #section3, #section4, #section5{
-  padding-top: 80px;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-bottom: 30px;
 }
 
 #section5{
