@@ -19,7 +19,7 @@ html, body {
 }
 
 /* Navigation bar */
-@media (max-width: 970px) {
+@media (max-width: 1026px) {
     .navbar-header {
         float: none;
     }
@@ -65,6 +65,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.3);
     border: 0;
     font-family: "Avenir Next" !important;
+    font-size:2.5vmin;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -201,6 +202,14 @@ a:hover{
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+}
+
+h1{
+  font-size:6vmin;
+}
+
+.terminology-panel{
+  font-size:3vmin;
 }
 
 .btn-info{
