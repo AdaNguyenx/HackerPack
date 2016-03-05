@@ -133,6 +133,8 @@ ul.nav-pills {
 .nav>li>a:focus {
     color: black ;
 }
+
+
  /* Box customizations */
  .panel:hover {
   background-color: rgba(255, 255, 255, 0.7) !important;
@@ -166,7 +168,7 @@ a:hover{
 
 /* Section customizations*/
 #section1, #section2, #section3, #section4, #section5{
-  padding-top: 65px;
+  padding-top: 80px;
 }
 
 #section5{
