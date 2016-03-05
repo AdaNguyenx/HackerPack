@@ -146,6 +146,7 @@ a:hover{
 }
 
 .terminology-body{
+  background-color:#b3b3b3;;
   background-image: url("images/terminologybg.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
