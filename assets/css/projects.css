@@ -1,6 +1,5 @@
 /*--------------------------------This should be the same for all tabs--------------------------------*/
 html, body {
-        background-image: url("images/background.jpg")
         height: 100%;
         margin: 0;
         font-family: "Avenir Next";
@@ -83,9 +82,11 @@ html, body {
 }
 
 
-/*------------------------------------------------End---------------------------------------------------*/
+/*------------------------------------------------End---------------------------------------------------*/ 
 
 body {
+    background-color:#b3b3b3;
+    background-image: url('images/background.jpg');
     position: relative;
 }
 
