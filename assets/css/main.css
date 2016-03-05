@@ -3,6 +3,10 @@ html, body {
     		height: 100%;
     		margin: 0;
         font-family: "Avenir Next";
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     	}
 
 /* two main colors*/
@@ -55,7 +59,7 @@ html, body {
 }*/
 
 body.main-page{
-  background-image:url("images/opaquebg1.jpg");
+  background-image:url("images/background2.jpg");
 }
 
 .opaque{
