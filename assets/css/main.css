@@ -54,6 +54,14 @@ html, body {
     min-height:100%
 }*/
 
+body.main-page{
+  background-image:url("images/opaquebg1.jpg");
+}
+
+.opaque{
+  background-color: rgba(128, 128, 128, 0.09); 
+}
+
 /* Body for main page */
 img.logos{ 
   position:relative;
@@ -63,26 +71,24 @@ img.logos{
   max-height:40%;
 }
 
-.center1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Avenir Next" !important;
-  font-size: 10vmin;
-  font-weight: bold;
-}
-
 .container-table {
     display: table;
     height:100%;
-    font-size: 10vmin;
 }
+
 .vertical-center-row {
     display: table-cell;
     vertical-align: middle;
 }
 
+.title{
+  font-size:10vmin;
+}
+
+.subtitle {
+  font-size:3.5vmin;
+  color:white;
+}
 
 /* For the terminology tab */
 .terminology{
