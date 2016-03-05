@@ -1,5 +1,6 @@
 /*--------------------------------This should be the same for all tabs--------------------------------*/
 html, body {
+        background-image: url("images/background.jpg")
         height: 100%;
         margin: 0;
         font-family: "Avenir Next";
