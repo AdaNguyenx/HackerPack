@@ -142,4 +142,19 @@ a:hover{
   padding-left: 65px;
   padding-right: 65px;
   font-family: "Avenir Next" !important;
+  color:white;
+}
+
+.terminology-body{
+  background-image: url("images/terminologybg.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.btn-info{
+  font-weight: bold;
+  color:black !important;
 }
