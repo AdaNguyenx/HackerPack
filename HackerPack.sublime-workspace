@@ -151,7 +151,7 @@
 			"file": "beginner-projects.html",
 			"settings":
 			{
-				"buffer_size": 10887,
+				"buffer_size": 11274,
 				"line_ending": "Unix"
 			}
 		}
@@ -461,15 +461,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10887,
+						"buffer_size": 11274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10277,
-								10277
+								5988,
+								5988
 							]
 						],
 						"settings":
@@ -478,7 +478,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2656.0,
+						"translation.y": 4471.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

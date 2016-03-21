@@ -210,6 +210,7 @@ h1{
 
 .terminology-panel{
   font-size:3vmin;
+  background-color:rgba(255,255,255,0.1);
 }
 
 .btn-info{
