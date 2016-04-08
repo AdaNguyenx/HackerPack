@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 <script src="TripleLift_Test.js"></script>
 <link rel="stylesheet" type="text/css" href="HackerPack_Haitus.css">
 
@@ -44,6 +44,7 @@
     <label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
     <button id="button">Register!!</button>
 <script>
+    
     var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
     
     
@@ -52,7 +53,7 @@
     function RegisterUser(){
         
         var email1 = String(document.getElementById("dollars").value);
-        myDataRef.set(email1);
+        myDataRef.push(email1);
         
     }
     
