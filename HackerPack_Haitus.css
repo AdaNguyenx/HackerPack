@@ -1,0 +1,49 @@
+body {
+	background-image: url('http://wallpaper.zone/img/48523.jpg');
+	  background-attachment: fixed;
+}
+
+.logo{
+	margin-top: 100px;
+	
+}
+
+#logo{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#logoParagraph{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.img-circle1 {
+    border-radius: 50%;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 
+}
+
+#meetTheTeam{
+	width: 30%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 200px;
+
+}
+
+p, h1, h3{
+	color: white;
+	text-align: center;
+	font-family: "Andale Mono", Monospace;
+}
+
+#ppl{
+	margin-bottom: 170px;
+	margin-top: 70px;
+}

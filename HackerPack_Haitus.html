@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="TripleLift_Test.js"></script>
+<link rel="stylesheet" type="text/css" href="HackerPack_Haitus.css">
+
+
+<body>
+
+
+<div class="logo">
+  <img id="logo" src="images/HackerPack.png">
+  <h1> Still Preparing for take-off!</h1>
+</div>
+
+<p id="logoParagraph">HackerPack's has a vision to increase tech diversity through creating a more inclusive hackathon environment for beginners. We are just getting started in our goal and are happy to announce we will be funded to work full time this summer on HackerPack through Princeton University. We are looking to hire two interns for the summer to work full time as software engineers on our web development platform. If you are interested in applying please follow the instructions below.</p>
+    
+<p id ="logoParagraph">
+    Interested in applying to HackerPack? Send an email describing your interest in improving the diversity of students pursuing technical majors along with your resume to both juscha1@umbc.edu and lbn@princeton.edu.
+    
+    </p>
+<!--
+
+<div id="meetTheTeam">
+  <h1> Meet the team!</h1>
+
+  <div id="ppl">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+
+  <div id="ppl">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+
+
+</div>
+//-->
+    <div id = meetTheTeam>
+    <label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
+    <button id="button">Register!!</button>
+<script>
+    var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
+    
+    
+    
+    
+    function RegisterUser(){
+        
+        var email1 = String(document.getElementById("dollars").value);
+        myDataRef.set(email1);
+        
+    }
+    
+    document.getElementById('button').addEventListener('click', RegisterUser);
+        
+    
+    </script>
+    </div>
+
+</body>
+</html>
+
