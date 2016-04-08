@@ -51,10 +51,19 @@ body {
 	margin-bottom: 40%;
 }
 
-p, h1, h3, label{
+p, h1, h3, h4, label{
 	color: white;
 	text-align: center;
 	font-family: "Andale Mono", Monospace;
+}
+
+h1{
+	font-size: 60px;
+	margin-bottom: 0;
+}
+h4{
+	
+	margin-top: 0;
 }
 
 
@@ -97,3 +106,81 @@ label{
 }
 
 
+
+/*-___________ARROW_______________*/
+
+.arrow-wrap {
+  z-index:1;
+  left:50%;
+  background:blue;
+  width:8em;
+  height:8em;
+  padding:1em 1em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #333;
+  margin: auto;
+}
+
+.arrow {
+	margin: auto;
+  position:relative;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+
+.hint {
+  position:absolute;
+  top:0.6em;
+  width:100%;
+  left:0;
+  font-size:2em;
+  font-style:italic;
+  text-align:center;
+  color:#fff;
+  opacity:0;
+}
+
+
+.arrow-wrap:hover .hint {
+  opacity:1;
+}
+
+
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+  
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+  }
