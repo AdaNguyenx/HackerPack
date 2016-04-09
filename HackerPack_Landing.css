@@ -152,6 +152,8 @@ section {
   background:#fff;
   position:relative;
   box-shadow:0 0 5px 0px #333;
+ /* background-image: url('background.png'); WHAT BACKGROUND HERE??? after landing?? */
+
 }
 
 
@@ -308,6 +310,7 @@ p a {
 
 
 
+
 /*------POP UP----------*/
 body {
   font-family: Arial, sans-serif;
@@ -319,9 +322,9 @@ body {
 .box {
   /*width: 20%;*/
   margin: 0 auto;
-  background: rgba(255,255,255,0.2);
+ /* background: rgba(255,255,255,0.2);*/
   padding: 15px;
-  border: 2px solid #fff;
+ /* border: 2px solid #fff;*/
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
