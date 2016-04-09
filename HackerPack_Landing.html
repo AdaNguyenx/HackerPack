@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+<script src="scroll.js"></script>
+<link rel="stylesheet" type="text/css" href="scroll.css">
+<title>HackerPack</title>
+
+<body>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+
+<header>
+<div class="logo">
+  <img id="logo" src="HackerPack.png">
+  <h1 style="color:white;">HackerPack</h1>
+  <h4 style="color:white;">The ultimate guide to hackathons</h4>
+</div>
+</header>
+
+
+<section class="main">
+<a class="arrow-wrap" href="#content">
+<span class="arrow"></span>
+<!--<span class="hint">scroll</span>-->
+</a>
+  
+  <div class="about" id="content">
+    <br/>
+    <h1> About Us </h1>
+    <p id="logoParagraph">HackerPack's has a vision to increase tech diversity through creating a more inclusive hackathon environment for beginners. We are just getting started in our goal and are happy to announce we will be funded to work full time this summer on HackerPack through Princeton University. We are looking to hire two interns for the summer to work full time as software engineers on our web development platform. If you are interested in applying please follow the instructions below.</p>
+    
+<p id ="logoParagraph">
+    Interested in applying to HackerPack? Send an email describing your interest in improving the diversity of students pursuing technical majors along with your resume to both juscha1@umbc.edu and lbn@princeton.edu.
+    
+    </p>
+<!--
+
+<div id="meetTheTeam">
+  <h1> Meet the team!</h1>
+
+  <div id="ppl">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+
+  <div id="ppl">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+
+
+</div>
+//-->
+   
+
+    <div id="meetTheTeam">
+  <h1> Meet the team!</h1>
+
+
+  <div id="person1">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+
+  <div id="person2">
+    <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
+    <h3>JUSTIN</h3>
+    <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
+  </div>
+  </div>
+
+
+
+
+  <h1>Sign Up</h1>
+   <div id = "register">
+    <label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
+    <button id="button">Register!!</button>
+<script>
+    
+    var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
+    
+    
+    
+    
+    function RegisterUser(){
+        
+        var email1 = String(document.getElementById("dollars").value);
+        myDataRef.push(email1);
+        
+    }
+    
+    document.getElementById('button').addEventListener('click', RegisterUser);
+        
+    
+    </script>
+    </div>
+  
+</section>
+
+</body>
+</html>
+
