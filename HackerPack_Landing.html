@@ -62,13 +62,13 @@
 
   <div id="person1">
     <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
-    <h3>JUSTIN</h3>
+    <h3 id="profName">JUSTIN</h3>
     <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
   </div>
 
   <div id="person2">
     <img class="img-circle1" src="JUSTIN.jpg" alt ="Me">
-    <h3>JUSTIN</h3>
+    <h3 id="profName">JUSTIN</h3>
     <p>I AM JUSTIN. LALALA LALAL LALALA LA LALALA ALALAL LLALAALLA LA  LAALA ALA </p>
   </div>
   </div>
@@ -76,10 +76,27 @@
 
 
 
-  <h1>Sign Up</h1>
+  <h1>Sign Up!</h1>
    <div id = "register">
-    <label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
+   <h2 style="margin-top:10px;">Are you...</h2>
+    <!--<label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
     <button id="button">Register!!</button>
+    <br/>
+      Are you a
+    <br/>
+    <button type="submit"value ="beginner" id="beginner" onclick="popUpForm(this.value)"> Beginner Hacker </button>
+    <button type="submit"value ="experienced" id="experienced" onclick="popUpForm(this.value)"> Experienced Hacker </button>
+    <button type="submit"value ="recuiter" id="recruiter" onclick="popUpForm(this.value)"> Recruiter </button>-->
+    <div class="box">
+  <a class="button" href="#popup1">a beginner Hacker?</a>
+</div>
+
+<div class="box">
+  <a class="button" href="#popup1">an experienced Hacker?</a>
+</div>
+<div class="box">
+  <a class="button" href="#popup1">a recruiter?</a>
+</div>
 <script>
     
     var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
@@ -99,7 +116,24 @@
     
     </script>
     </div>
-  
+
+
+    
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Here i am</h2>
+    <a class="close" href="#">x</a>
+    <div class="content">
+      Thanks for pop me out of that button, but now i'm done so you can close this window.
+    </div>
+  </div>
+</div>
+
+
+
+
+    
 </section>
 
 </body>
