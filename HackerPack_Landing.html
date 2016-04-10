@@ -122,16 +122,38 @@
 
 <div id="popup1" class="overlay">
   <div class="popup">
-    <h2>Here i am</h2>
+    <h3>Give Us Your Email!</h3>
     <a class="close" href="#">x</a>
     <div class="content">
-      Thanks for pop me out of that button, but now i'm done so you can close this window.
+      <form accept-charset="UTF-8" action="https://formspree.io/okiedokie18@gmail.com"
+            method="POST" id="contribution">
+          Name
+          <input type="text" name="name" required><br/>
+          Email
+            <input type="email" name="email" required>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="http://userpages.umbc.edu/~chrisv3/hackerPack/HackerPack_Landing.html#popup2" />
+            <!--<input type="hidden" name="_next" value="/thanks" />-->
+            <p>  </p>
+            <button type="submit" value="Send" class="btn btn-primary"> Submit </button>
+        </form>
+
     </div>
   </div>
 </div>
 
 
+<div id="popup2" class="overlay">
+  <div class="popup">
+    <h3>Give Us Your Email!</h3>
+    <a class="close" href="#">x</a>
+    <div class="content">
+      
+          THANK YOU!
 
+    </div>
+  </div>
+</div>
 
     
 </section>
