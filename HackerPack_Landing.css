@@ -78,7 +78,7 @@ hr{
   margin: 80px;
 }
 
-p, h1, h2, h3, h4, label{
+p, h1, h2, h3, h4, h5, label{
   color: black;
   text-align: center;
   font-family: "Andale Mono", Monospace;
@@ -137,7 +137,9 @@ label{
 
 
 
-
+#whatYouWillGet{
+  margin-bottom: 0px;
+}
 
 
 
