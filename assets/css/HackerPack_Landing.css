@@ -1,18 +1,96 @@
-
-/*body {
-  background-image: url('http://wallpaper.zone/img/48523.jpg');
-    background-attachment: fixed;
-}*/
-
-.logo{
-  margin-top: 30px;
-  color:white;
+/* Navigation bar */
+@media (max-width: 1026px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+  }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    font-family: "Avenir Next" !important;
+    font-size:2.5vmin;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* HackerPack color*/
+.hred{
+  color: #C21C31;
+  font-family: "Avenir Next" !important;
+  font-weight: bold;
+}
+
+.hgreen{
+  color: #589E07;
+  font-family: "Avenir Next" !important;
+  font-weight: bold;
+}
+
+/* logo */
+.logo{
+  margin-top: 30px;
+  color:white; 
+}
+
+#content {
+  padding-top: 30px;
+}
 #logo{
+  padding-top: 30px;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:50vmin;
+  max-height:50vmin;
 }
 
 #logoParagraph{
@@ -22,37 +100,28 @@
   color: black;
 }
 
-.img-circle1 {
-  display: inline-block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
- 
-}
-
-
 
 #register{
   border: solid black;
   border-width: thin;
   width: 30%;
   margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    text-align: center;
-    padding-bottom: 10px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 30px;
 
 
 }
 
 #signUp{
+  padding-top: 30px;
   text-align: center;
   display: block;
 }
 
 #meetTheTeam{
-
+padding-top: 30px;
   margin-top: 15%;
   text-align: center;
   margin-bottom: 60%;
@@ -66,7 +135,7 @@
 p, h1, h3, h4, label{
   color: black;
   text-align: center;
-  font-family: "Andale Mono", Monospace;
+  font-family: "Avenir Next", Monospace;
 }
 
 h1{
@@ -74,8 +143,9 @@ h1{
   margin-bottom: 0;
 }
 h4{
-  
-  margin-top: 0;
+  font-weight: normal;
+  margin-top: 30;
+  font-size: 5vmin;
 }
 
 
@@ -140,7 +210,7 @@ html, body {
 
 body {
   margin:0;
-  background-image: url('http://wallpaper.zone/img/48523.jpg');
+  background-image:url("images/background2.jpg");
   font-size:1.3em;
   color:#333;
   font-family:'Open Sans', sans-serif;
@@ -165,14 +235,14 @@ section {
   left:50%;
   top:-5em;
   margin-left:-5em;
-  background:#111;
+  background:rgba(128, 128, 128, 0.5);
   width:10em;
   height:10em;
   padding:4em 2em;
   border-radius:50%;
   font-size:0.5em;
   display:block;
-  box-shadow:0px 0px 5px 0px #333;
+/*  box-shadow:0px 0px 5px 0px rgba(128, 128, 128, 0.5);*/
 }
 
 .arrow {
@@ -182,7 +252,7 @@ section {
 height: 0px;
 border-style: solid;
 border-width: 3em 3em 0 3em;
-border-color: #ffffff transparent transparent transparent;
+border-color: rgba(128, 128, 128, 0.5) transparent transparent transparent;
   -webkit-transform:rotate(360deg)
 }
 
@@ -195,7 +265,7 @@ border-color: #ffffff transparent transparent transparent;
 height: 0px;
 border-style: solid;
 border-width: 3em 3em 0 3em;
-border-color: #111 transparent transparent transparent;
+border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
   -webkit-transform:rotate(360deg)
 }
 
@@ -281,13 +351,13 @@ header a:hover {
 }
 
 h1 {
-  font-family:'Maven Pro', sans-serif;
+  font-family:"Avenir Next", sans-serif;
   font-weight:300;
-  font-size:2.4em;
+  font-size:1vmin;
 }
 
 h2, h3 {
-  font-family:'Maven Pro', sans-serif;
+  font-family:"Avenir Next", sans-serif;
   font-weight:300;
   font-size:1.5em;
   margin-top:2em;
