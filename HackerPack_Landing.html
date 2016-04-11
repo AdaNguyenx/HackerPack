@@ -24,6 +24,13 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
 
 <title>HackerPack</title>
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -55,13 +62,48 @@
     </nav>
 
 <header>
+<!--
 <div class="logo">
   <img id="logo" src="images/HackerPack.png">
   <h1>
   <span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
   </h1>
   <h4 style="color:white;">The ultimate guide to hackathons</h4>
-</div>
+</div>-->
+
+
+<div id="container" class="container">
+    <ul id="scene" class="scene">
+    <!--  <li class="layer" id="backgroundLayer" data-depth="0.00"><img src="background2.jpg"></li>
+      <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
+      <li class="layer" data-depth="0.30"><img src="images/layer4.png"></li>
+      <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
+      <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>-->
+      <li class="layer" id="logoParallax" data-depth="1.00"><img src="images/HackerPack.png"></li>
+    </ul>
+
+     <h1>
+  <span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
+  </h1>
+  <h4 style="color:white;">The ultimate guide to hackathons</h4>
+
+    
+  </div>
+
+
+
+
+  <!-- Scripts -->
+<script src="parallax.js"></script>
+  <script>
+
+  // Pretty simple huh?
+  var scene = document.getElementById('scene');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+
 </header>
 
 <section class="main">
