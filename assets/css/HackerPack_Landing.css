@@ -80,7 +80,10 @@
   margin-top: 30px;
   color:white; 
 }
-
+#HeaderText{
+ position: relative;
+    z-index: 10;
+}
 .imgFace{
     position: relative;
     width:  250px;
@@ -89,7 +92,10 @@
     background-repeat:   no-repeat;
     background-size:     cover;
 }
-
+.imgTame{
+ position: relative;
+    z-index: 9;
+}
 .crop11{
  height: 250px;
 width: 250px;
@@ -544,7 +550,8 @@ input[type=checkbox]:checked + label:before {
 
 
 #logoParallax{
-  
+  position: center;
+    z-index: 8;
   margin-left: 40%;
   margin-top: 10%;
 }
