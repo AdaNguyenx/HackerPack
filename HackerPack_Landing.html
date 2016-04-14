@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
-<script src="HackerPack_Landing.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <script src="HackerPack_Landing.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-74692438-1', 'auto');
-    ga('send', 'pageview');
-</script>
+      ga('create', 'UA-74692438-1', 'auto');
+      ga('send', 'pageview');
+  </script>
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="assets/css/HackerPack_Landing.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="assets/css/HackerPack_Landing.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
 
-<title>HackerPack</title>
-
-
-
-
-
-
+  <title>HackerPack</title>
 
 </head>
 
 <body>
 
-<!--  Navigation bar  -->
+<!--  NAVIGATION BAR  -->
     <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="container-fluid">
@@ -61,53 +55,38 @@
         </div>
     </nav>
 
+<!-- LANDING PAGE WITH LOGO -->
 <header>
-<!--
-<div class="logo">
-  <img id="logo" src="images/HackerPack.png">
-  <h1>
-  <span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
-  </h1>
-  <h4 style="color:white;">The ultimate guide to hackathons</h4>
-</div>-->
 
+    <div id="container" class="container">
+        <ul id="scene" class="scene">
+            <div id="imgTame">
+            <li class="layer" id="logoParallax" data-depth="1.00"><img src="images/HackerPack.png" ></li>
+        </ul>
+    </div>
 
-<div id="container" class="container">
-    <ul id="scene" class="scene">
-        <div id="imgTame">
-    <!--  <li class="layer" id="backgroundLayer" data-depth="0.00"><img src="background2.jpg"></li>
-      <li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
-      <li class="layer" data-depth="0.30"><img src="images/layer4.png"></li>
-      <li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
-      <li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>-->
-      <li class="layer" id="logoParallax" data-depth="1.00"><img src="images/HackerPack.png" ></li>
-    </ul>
-</div>
     <div id = "HeaderText">
-     <h1>
-  <span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
-  </h1>
-  <h4 style="color:white;">The ultimate guide to hackathons</h4>
+         <h1>
+      <span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
+      </h1>
+      <h4 style="color:white;">The ultimate guide to hackathons</h4>
 
     </div>
-  </div>
-
-
-
 
   <!-- Scripts -->
-<script src="parallax.js"></script>
-  <script>
+  <script src="parallax.js"></script>
+    <script>
 
-  // Pretty simple huh?
-  var scene = document.getElementById('scene');
-  var parallax = new Parallax(scene);
-
+    // Pretty simple huh?
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
   </script>
 
 
 </header>
 
+
+<!-- ABOUT SECTION -->
 <section class="main">
    <a class="arrow-wrap" href="#content">
    <span class="arrow"></span>
@@ -116,12 +95,6 @@
   <div class="about" id="content">
     <br/>
     <h1> About Us </h1>
-    <!-- <p id="logoParagraph">HackerPack's has a vision to increase tech diversity through creating a more inclusive hackathon environment for beginners. We are just getting started in our goal and are happy to announce we will be funded to work full time this summer on HackerPack through Princeton University. We are looking to hire two interns for the summer to work full time as software engineers on our web development platform. If you are interested in applying please follow the instructions below.</p> -->
-
-<!--     <p id ="logoParagraph">
-    Interested in applying to HackerPack? Send an email describing your interest in improving the diversity of students pursuing technical majors along with your resume to both juscha1@umbc.edu and lbn@princeton.edu.
-    
-</p> -->
 
     <div class="container intro">
       <div class = "intro-paragraph">
@@ -179,36 +152,24 @@
       </div>        
     </div>   
     
+<!-- SIGN UP SECTION -->
 <hr style="margin:80px;">
-
-  <h1>Sign Up!</h1>
-   <div id = "register">
+    <h1>Sign Up!</h1>       
+  <div class="box">
    <h2 style="margin-top:10px;">Are you...</h2>
-    <!--<label for="dollars">Amount in Dollars: </label><input type="text" name="dollars" id="dollars"/>
-    <button id="button">Register!!</button>
-    <br/>
-      Are you a
-    <br/>
-    <button type="submit"value ="beginner" id="beginner" onclick="popUpForm(this.value)"> Beginner Hacker </button>
-    <button type="submit"value ="experienced" id="experienced" onclick="popUpForm(this.value)"> Experienced Hacker </button>
-    <button type="submit"value ="recuiter" id="recruiter" onclick="popUpForm(this.value)"> Recruiter </button>-->
-    <div class="box">
-  <a class="button" href="#popup1">a beginner Hacker?</a>
-</div>
+    <!-- <div class="btn-group-vertical" role="group" aria-label="Vertical button group"> -->
+      <a type="btn" class="btn btn-info btn-font" href="#popup1">A beginner hacker?</a>
+      <a type="btn" class="btn btn-info btn-font" href="#popup2">An experienced hacker?</a>
+      <a type="btn" class="btn btn-info btn-font" href="#popup3">A recruiter?</a>
+    <!-- </div> -->
+  </div>
 
-<div class="box">
-  <a class="button" href="#popup2">an experienced Hacker?</a>
-</div>
-<div class="box">
-  <a class="button" href="#popup3">a recruiter?</a>
-</div>
+
+
 <script>
     
     var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
-    
-    
-    
-    
+
     function RegisterUser(){
         
         var email1 = String(document.getElementById("dollars").value);
@@ -217,12 +178,7 @@
     }
     
     document.getElementById('button').addEventListener('click', RegisterUser);
-        
-    
-    </script>
-    </div>
-
-
+</script>
     
 
 <div id="popup1" class="overlay">
@@ -305,48 +261,30 @@
     </div>
   </div>
 </div>
-<!--
-<div id="popup2" class="overlay">
-  <div class="popup">
-    <h3>Give Us Your Email!</h3>
-    <a class="close" href="#">x</a>
-    <div class="content">
-      
-          THANK YOU!
 
-    </div>
-  </div>
-</div>
-   
--->
-    <div id="meetTheTeam">
-  <h1> Meet the team!</h1>
+<!-- TEAM SECTION -->
+<div id="meetTheTeam">
+<h1> Meet the team!</h1>
 
-
-  <div id="person1">
-    <img class="img-circle img-repsponsive imgFace" src="images/JustinHeadshot6.jpg" alt ="Me">
-    <h3 id="profName">JUSTIN</h3>
-    <p>Justin is an undergraduate student at the University of Maryland Baltimore County as part of the Meyerhoff Scholars Program. In his free time he attends hackathons, works on a Computer Vision research project, and mentors other high school and college students. </p>
-  </div>
-
-  <div id="person2">
-    <img class="img-circle img-repsponsive" src="images/LinhchiHeadshot2.jpg" alt ="Me" width="100%">
-    <h3 id="profName">Linhchi Nguyen</h3>
-    <p>Linhchi is a second-year student at Princeton University majoring in Computer Science with minors in Neuroscience and Statistics and Machine Learning. Outside of school she is active in Neuroscience research, creating her own creative desgins, and attending hackathons!</p>
-  </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
+<div class="row">
+  <div class="col-md-6">
 
     
+      <img class="img-circle img-repsponsive" src="images/JustinHeadshot6.jpg" alt ="Me" width="100%">
+      <h3 class="profName">Justin Chavez</h3>
+      <p class = "profParagraph">Justin is an undergraduate student at the University of Maryland Baltimore County as part of the Meyerhoff Scholars Program. In his free time he attends hackathons, works on a Computer Vision research project, and mentors other high school and college students. </p>
+    
+  </div>
+
+   <div class="col-md-6">
+  
+    <img class="img-circle img-repsponsive" src="images/LinhchiHeadshot2.jpg" alt ="Me" width="100%">
+    <h3 class="profName">Linhchi Nguyen</h3>
+    <p class = "profParagraph">Linhchi is a second-year student at Princeton University majoring in Computer Science with minors in Neuroscience and Statistics and Machine Learning. Outside of school she is active in Neuroscience research, creating her own creative desgins, and attending hackathons!</p>
+  
+  </div>
+</div>
+
 </section>
 
 </body>

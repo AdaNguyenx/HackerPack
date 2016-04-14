@@ -84,18 +84,17 @@
  position: relative;
     z-index: 10;
 }
-.imgFace{
-    position: relative;
-    width:  250px;
-    height: 250px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+.btn-font{
+  margin:2px;
+  font-size: 3vmin;
+  font-family: "Avenir Next";
 }
-.imgTame{
- position: relative;
-    z-index: 9;
+
+.img-circle{
+  width:50%;
 }
+
+
 .crop11{
  height: 250px;
 width: 250px;
@@ -150,9 +149,14 @@ padding-top: 30px;
   margin-bottom: 60%;
 }
 
-#profName{
-  margin-top: 5px;
-  margin-bottom: 5px;
+.profName{
+  font-size: 4vmin;
+}
+
+.profParagraph{
+  font-size:3vmin;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 p, h1, h3, h4, label{
@@ -176,24 +180,6 @@ label{
   font-size: 25px;
 }
 
-#person1{
-  text-align: center;
-  float:left;
-  width:30%;
-  overflow:hidden;
-  margin-left: 10%;
-  padding-right: 100px;
-  padding-top: 40px;
-}
-#person2{
-  text-align: center;
-  float:right;
-  width:30%;
-  overflow:hidden;
-  padding-left: 100px;
-  margin-right: 10%;
-  padding-top: 40px;
-}
 
 #dollars{
   font-size: 28px;

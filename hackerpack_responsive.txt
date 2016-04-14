@@ -1,0 +1,37 @@
+Responsive issues:
+
+You can see that when the site is on mobile/small browser, the content is 
+messed up like this:
+http://imgur.com/a/rcaVt
+
+This is because the site isn't mobile responsive. To fix that, you can do the 
+followings:
+
+1. For the "Meet the Team" section:
+
+- use Bootstrap grid system: https://getbootstrap.com/examples/grid/
+(the website already utilizes Bootstrap so you can start using the
+element without inserting any additional scripts)
+- On a big screen, you will be able to see both
+biographies side-by-side. When the broswer gets smaller, the site
+should be responsive by placing the second biography under the 
+first biography. 
+- The image and font should also be responsive by getting smaller 
+when the broswer gets smaller. 
+	- For image, you can use the class .img-responsive. However,
+	you should be able to control the size of the image when using
+	the class through customized CSS.
+	- For font, I'd suggest using vmin instead of em or px.
+
+2. For the "Sign Up" section:
+
+- Instead of using the class .button, you can use Bootstrap's button .btn
+class, which is responsive by itself.
+- You should also edit the font so that it is resposive with the button (eg.
+wrap around when getting smaller, etc.)
+
+3. Bonus: When you make the broswer smaller, you will notice that the logo
+is no longer in the middle of the page, and it is also too big. You can
+make the logo responsive through using CSS properties position, max-width,
+max-height.
+
