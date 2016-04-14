@@ -107,6 +107,10 @@
 width: 250px;
     overflow: hidden;
 }
+.main{
+  width:100%;
+}
+
 #content {
   padding-top: 30px;
   text-align: center;
@@ -196,11 +200,15 @@ p, h1, h3, h4, label{
   font-family: "Avenir Next", Monospace;
 }
 
-h1{
+.hp-title{
   font-size: 6vmin;
   margin-bottom: 0;
   padding-top: 10px;
+  color: black;
+  text-align: center;
+  font-family: "Avenir Next", Monospace;
 }
+
 h4{
   font-weight: normal;
   margin-top: 30;
@@ -233,7 +241,9 @@ label{
 }
 
 
-
+li {
+  font-family: "Avenir Next";
+}
 
 
 
@@ -400,9 +410,9 @@ header a:hover {
 .content {
   float:left;
   /*width:70%;*/
-  margin:0 15%;
+/*  margin:0 15%;
   padding:2em 0;
-}
+}*/
 
 h1 {
   font-family:"Avenir Next", sans-serif;
