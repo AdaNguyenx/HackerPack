@@ -263,7 +263,7 @@ html, body {
 
 body {
   margin:0;
-  background-image:url("images/background2.jpg");
+  
   font-size:1.3em;
   color:#333;
   font-family:'Open Sans', sans-serif;
@@ -385,6 +385,7 @@ header {
   padding:2em 4em;
   color:#fff;
   height:calc(100% - 3em);
+  background-image:url("images/background2.jpg");
 }
 
 header h1 {
