@@ -1,72 +1,311 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> HackerPack </title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script>
-		  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <script src="HackerPack_Landing.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-		  	ga('create', 'UA-74692438-1', 'auto');
-		  	ga('send', 'pageview');
-		</script>
-		
-		
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		
-	</head>
-	<body class = "main-page">
-		
-		<!--  Navigation bar  -->
-		<nav class="navbar navbar-default navbar-fixed-top">
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  		<div class="container-fluid">
-	    		<div class="navbar-header">
-	    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-	    			<span class = "sr-only"> Toggle navigation </span>
-	    			<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-	    		</button>
+      ga('create', 'UA-74692438-1', 'auto');
+      ga('send', 'pageview');
+  </script>
 
-				<a href = "/" class="navbar-brand" > <span class ="hred">Hacker</span><span class = "hgreen">Pack</span></a>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="assets/css/HackerPack_Landing.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
 
-	    		</div>
-	    		
-	    		<div class = "navbar-collapse collapse">
-		    		<ul class="nav navbar-nav navbar-right">
-		    			<li><a href="/about"> About </a></li>
-		    			<li><a href="/terminology"> Common Terminology </a></li>
-		    			<li><a href="/first-hackathon"> First Hackathon Prep</a></li>
-		    			<li><a href="/beginner-projects"> Beginner Projects </a></li>
-		    			<li><a href="/best-hackathons"> Best Hackathons </a></li>
-		    			<li><a href="/resources"> Other Resources </a></li>	
-		    		</ul>
-	    		</div>
-	  		</div>
-		</nav>
+  <title>HackerPack</title>
 
-		<div class="container container-table">
-			<div class="row vertical-center-row">
-			
-				<div class="text-center col-md-4 col-md-offset-4">
-				<img class="logos" src = "images/HackerPack.png" align="left, middle">
-				
-				<span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span>
-				<div class = "subtitle"> The ultimate guide to hackathons </div>
-				</div>
+</head>
 
-			</div>
-		</div>	 
+<body>
 
-		
-	</body>
+<!--  NAVIGATION BAR  -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="container-fluid">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+            <span class = "sr-only"> Toggle navigation </span>
+            <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+
+        <a href = "/" class="navbar-brand" > <span class ="hred">Hacker</span><span class = "hgreen">Pack</span></a>
+
+          </div>
+          
+          <div class = "navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#content"> About </a></li>
+              <li><a href="#register"> Sign Up </a></li>
+              <li><a href="#meetTheTeam"> Team </a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- LANDING PAGE WITH LOGO -->
+<header>
+
+<div class="container container-table">
+      <div class="row vertical-center-row">
+        <div class="text-center col-md-4 col-md-offset-3">
+
+        <ul id="scene" class="scene">
+            <div id="imgTame">
+            <li class="layer" id="logoParallax" data-depth="1.00"><img src="images/HackerPack.png" class="logos" ></li>
+        </ul>
+        </div>
+
+        <div class="row">
+        <div class="text-center col-md-4 col-md-offset-4">
+        <!-- <div id = "HeaderText"> -->
+          <div class = "hp-title"><span class = "hred title">Hacker</span><span class = "hgreen title">Pack</span></div>
+          <h4 style="color:white;">The ultimate guide to hackathons</h4>
+
+        </div>
+        </div>
+
+        </div>
+    </div>   
+</div>
+
+  <!-- Scripts -->
+  <script src="parallax.js"></script>
+    <script>
+
+    // Pretty simple huh?
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  </script>
+
+
+</header>
+
+
+<!-- ABOUT SECTION -->
+<section class="main">
+   <a class="arrow-wrap" href="#content">
+   <span class="arrow"></span>
+   </a>
+  
+  <div class="about" id="content">
+    <br/>
+    <div class = "hp-title"> About Us </div>
+
+    <div class="intro">
+      <div class = "intro-paragraph">
+        <p class = "intro-paragraph"> <span class = "hred">Hacker</span><span class = "hgreen">Pack</span> is the ultimate guide to hackathons, open-sourced and built on a community of hackathon hackers who want to learn and give back. We want to be to the to go information database for all hackathon realted tips, resources, and tutorials. 
+          </p>
+          <p class = "intro-paragraph"> 
+          Through our community developed platform, we hope to create a more inclusive hackathon environment for beginners. We envision HackerPack to be used to drive social change in the community by promoting hackathons to underrepresented students in the  tech industry. With HackerPack we hope to build confidence to attend hackathons amongst these students and spark their interest in the tech field.</p>
+        <p class = "intro-paragraph"> With <span class = "hred">Hacker</span><span class = "hgreen">Pack</span>, you can: </p>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class = "hred">Learn </span>new technologies, regardless of prior experience</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                <li> HackerPack aggregates everything by categories for easy search </li>
+                <li> We give the best-curated advice by giving recommendations backed by data on surveys filled out by other hackers </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class = "hgreen">Implement</span> your dream ideas into reality</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                <li> Guides for beginner-friendly hackathon projects to get you 0 to 1 all within the 24-36 hour timeframe of a hackathon</li>
+                <li> Made by hackers, for hackers.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> <span class = "hred">Contribute </span> and establish your hacker reputation</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                <li> We provide a platform where people can <a href ="contribute" target="_blank">contribute</a> their own guides and a feature for upvoting the most useful contributions, creating a community for hackathon hackers.</li>
+                <li> With <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a> implementation, you can easily format your guide and make it visually appealing. </li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    
+      </div>        
+    </div>   
+    
+<!-- SIGN UP SECTION -->
+<!-- <hr style="margin:80px;"> -->
+<div id = "register">
+    <div class = "hp-title">Sign Up!</div>       
+  <div class="box">
+   <h2 style="margin-top:10px;">Are you...</h2>
+    <!-- <div class="btn-group-vertical" role="group" aria-label="Vertical button group"> -->
+      <a type="btn" class="btn btn-primary btn-font" href="#popup1">A beginner hacker?</a>
+      <a type="btn" class="btn btn-primary btn-font" href="#popup2">An experienced hacker?</a>
+      <a type="btn" class="btn btn-primary btn-font" href="#popup3">A recruiter?</a>
+    <!-- </div> -->
+  </div>
+</div>
+
+
+
+    
+<!-- //     var myDataRef = new Firebase('https://hackerpackinterest.firebaseio.com/');
+
+//     function RegisterUser(){
+        
+//         var email1 = String(document.getElementById("dollars").value);
+//         myDataRef.push(email1);    
+//     }
+    
+//     document.getElementById('button').addEventListener('click', RegisterUser); -->
+
+    
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+  <br>
+  <h5 id="whatYouWillGet"> We will be launching a beta version of the site giving you exclusive access to the tips, tutorials and resources to hacking. Don't miss out!</h5>
+      <p> </p>
+      <hr>
+    <h4>Give Us Your Email!</h4>
+    <a class="close" href="#register">x</a>
+    <div class="content">
+
+      <form accept-charset="UTF-8" action="https://formspree.io/hackerpack77@gmail.com"
+            method="POST" id="contribution">
+          <div class = "submit">Name</div>
+          <input type="text" name="name" required><br/>
+          <div class = "submit">Email</div>
+            <input type="email" name="email" required>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="http://www.hackerpack.io/HackerPack_Landing#popup4" />
+            <!--<input type="hidden" name="_next" value="/thanks" />-->
+            <p>  </p>
+            <button type="submit" value="Send" class="btn btn-primary btn-font"> Submit </button>
+        </form>
+
+    </div>
+  </div>
+</div>
+    
+<div id="popup2" class="overlay">
+  <div class="popup">
+  <br>
+  <h5 id="whatYouWillGet"> This project will be a community effort to improve the hackathon experience for beginners. You will play a role in the team that will bring this project to life and will be recognized for your efforts.</h5>
+      <p> </p>
+      <hr>
+    <h4>Give Us Your Email!</h4>
+    <a class="close" href="#register">x</a>
+    <div class="content">
+
+      <form accept-charset="UTF-8" action="https://formspree.io/hackerpack77@gmail.com"
+            method="POST" id="contribution">
+          <div class = "submit">Name</div>
+          <input type="text" name="name" required><br/>
+          <div class = "submit">Email</div>
+            <input type="email" name="email" required>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="http://www.hackerpack.io/HackerPack_Landing#popup4" />
+            <!--<input type="hidden" name="_next" value="/thanks" />-->
+            <p>  </p>
+            <button type="submit" value="Send" class="btn btn-primary btn-font"> Submit </button>
+        </form>
+
+    </div>
+  </div>
+</div>
+    
+<div id="popup3" class="overlay">
+  <div class="popup">
+  <br>
+  <h5 id="whatYouWillGet"> We plan to launch a platform within HackerPack to increase the reach and quality of your recruitment efforts. Any feedback and opinons on our in-progress platform will exceedingly helpful as we work through the summer. </h5>
+      <p> </p>
+      <hr>
+    <h4>Give Us Your Email!</h4>
+    <a class="close" href="#register">x</a>
+    <div class="content">
+
+      <form accept-charset="UTF-8" action="https://formspree.io/hackerpack77@gmail.com"
+            method="POST" id="contribution">
+          <div class = "submit">Name</div>
+          <input type="text" name="name" required><br/>
+          <div class = "submit">Email</div>
+            <input type="email" name="email" required>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="http://www.hackerpack.io/HackerPack_Landing#popup4" />
+            <!--<input type="hidden" name="_next" value="/thanks" />-->
+            <p>  </p>
+            <button type="submit" value="Send" class="btn btn-primary btn-font"> Submit </button>
+        </form>
+
+    </div>
+  </div>
+</div>
+
+<div id="popup4" class="overlay">
+  <div class="popup">
+    <a class="close" href="#register">x</a>
+    <h4>Thank You!</h4>
+  </div>
+</div>
+
+<!-- TEAM SECTION -->
+
+<div id="meetTheTeam">
+<div class="hp-title"> Meet the team!</div>
+
+<div class="row">
+  <div class="col-md-6">
+
+    
+      <img class="img-circle img-repsponsive" src="images/JustinHeadshot6.jpg" alt ="Me" width="100%">
+      <h3 class="profName">Justin Chavez</h3>
+      <p class = "profParagraph">Justin is an undergraduate student at the University of Maryland Baltimore County as part of the Meyerhoff Scholars Program. In his free time he attends hackathons, works on a Computer Vision research project, and mentors other high school and college students. </p>
+    
+  </div>
+
+   <div class="col-md-6">
+  
+    <img class="img-circle img-repsponsive" src="images/LinhchiHeadshot2.jpg" alt ="Me" width="100%">
+    <h3 class="profName">Linhchi Nguyen</h3>
+    <p class = "profParagraph">Linhchi is a second-year student at Princeton University majoring in Computer Science with minors in Neuroscience and Statistics and Machine Learning. Outside of school she is active in Neuroscience research, creating her own creative desgins, and attending hackathons!</p>
+  
+  </div>
+</div>
+
+</section>
+
+</body>
 </html>
+
