@@ -75,20 +75,73 @@
   font-weight: bold;
 }
 
-/* logo */
+/* Landing page with logo */
 .logo{
   margin-top: 30px;
   color:white; 
 }
-#HeaderText{
- position: relative;
-    z-index: 10;
-}
 
 .imgTame{
  position: relative;
-    z-index: 9;
+ z-index: 9;
 }
+
+.container-table {
+    display: table;
+    height:100%;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+img.logos{ 
+  position:relative;
+  height:auto;
+  width:auto;
+
+  max-width:50%;
+  max-height:50%;
+}
+
+
+header {
+  /*float:left;*/
+  width:100%;
+  /*padding:2em 4em;*/
+  color:#fff;
+  height:calc(100% - 3em);
+  background-image:url("images/background2.jpg");
+}
+
+header h1 {
+  margin:0;
+}
+header h3 {
+  margin:0;
+  color: #56dcee ;
+}
+
+header a {
+  color:#56dcee;
+  opacity:0.5;
+  text-decoration:none;
+}
+
+header a:hover {
+  color:#333;
+  opacity:1;
+}
+
+
+
+
+
 .btn-font{
   margin:2px;
   font-size: 3vmin;
@@ -134,15 +187,6 @@ width: 250px;
 
 #register{
   padding-top: 30px;
-
-/*  border: solid black;
-  border-width: thin;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  text-align: center;
-  padding-top: 30px;*/
 }
 
 input {
@@ -361,51 +405,11 @@ border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
   }
 
 
-.container-table {
-    display: table;
-    height:100%;
-}
-.vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
-}
+
 
 
 /*  this is the unimportant CSS used just to layout the content  */
-img.logos{ 
 
-  max-width:100%;
-  max-height:100%;
-}
-
-
-header {
-  float:left;
-  width:100%;
-  padding:2em 4em;
-  color:#fff;
-  height:calc(100% - 3em);
-  background-image:url("images/background2.jpg");
-}
-
-header h1 {
-  margin:0;
-}
-header h3 {
-  margin:0;
-  color: #56dcee ;
-}
-
-header a {
-  color:#56dcee;
-  opacity:0.5;
-  text-decoration:none;
-}
-
-header a:hover {
-  color:#333;
-  opacity:1;
-}
 
 /*
 .content {
@@ -593,7 +597,7 @@ input[type=checkbox]:checked + label:before {
 
 #logoParallax{
   position: center;
-    z-index: 8;
+  z-index: 8;
   margin-left: 40%;
   margin-top: 10%;
 }
@@ -603,17 +607,6 @@ input[type=checkbox]:checked + label:before {
 
   margin: 0;
   margin-right: 500px;
-}
-
-.container {
-  position: relative;
- /* max-width: 600px;*/
-  margin: 0;  /*padding: 5%;*/
-}
-
-.scene {
-  padding: 0;
-  margin: 0;
 }
 
 .fill {

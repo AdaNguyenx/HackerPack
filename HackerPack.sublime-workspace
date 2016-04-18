@@ -127,7 +127,7 @@
 			"file": "contribute.html",
 			"settings":
 			{
-				"buffer_size": 3753,
+				"buffer_size": 3788,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,6 +136,14 @@
 			"settings":
 			{
 				"buffer_size": 4036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/HackerPack_Landing.css",
+			"settings":
+			{
+				"buffer_size": 9961,
 				"line_ending": "Unix"
 			}
 		},
@@ -284,6 +292,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-image",
 			"padding",
 			"position",
 			"box",
@@ -363,7 +372,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -372,15 +381,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3753,
+						"buffer_size": 3788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1469,
-								1469
+								0,
+								0
 							]
 						],
 						"settings":
@@ -392,7 +401,7 @@
 						"translation.y": 693.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -408,8 +417,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								2168,
+								2103
 							]
 						],
 						"settings":
@@ -419,14 +428,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2656.0,
+						"translation.y": 1192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/HackerPack_Landing.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2029,
+								1988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1473.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/projects.css",
 					"semi_transient": false,
 					"settings":
@@ -452,11 +491,11 @@
 						"translation.y": 2221.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "beginner-projects.html",
 					"semi_transient": false,
 					"settings":
@@ -481,7 +520,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
