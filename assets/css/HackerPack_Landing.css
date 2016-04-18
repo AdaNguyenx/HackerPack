@@ -230,8 +230,8 @@ input {
 
 .profParagraph{
   font-size:3vmin;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .submit{
@@ -635,6 +635,9 @@ a {
   color:#589E07;
 }
 
+.img-circle {
+  max-width:50vmin;
+}
 /*
 .aspect {
   opacity: 0.2;
