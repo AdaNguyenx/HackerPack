@@ -186,7 +186,7 @@ width: 250px;
 
 
 #register{
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 input {
@@ -225,6 +225,7 @@ input {
 
 .profName{
   font-size: 4vmin;
+  font-weight: bold;
 }
 
 .profParagraph{
@@ -282,6 +283,7 @@ label{
 
 .intro-paragraph{
   font-size:3vmin;
+  text-align: left;
 }
 
 
@@ -623,6 +625,14 @@ input[type=checkbox]:checked + label:before {
 
 .border {
   border: 2px dashed #00FFAA;
+}
+
+.panel-title {
+  font-size:3vmin;
+}
+
+a {
+  color:#589E07;
 }
 
 /*
