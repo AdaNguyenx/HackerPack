@@ -228,6 +228,11 @@ input {
   font-weight: bold;
 }
 
+.profTitle{
+  font-size: 3.5vmin;
+  font-weight: bold;
+}
+
 .profParagraph{
   font-size:3vmin;
   padding-right: 50px;
