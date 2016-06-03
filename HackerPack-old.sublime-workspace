@@ -1,1 +1,714 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hand",
+				"handleSigInt"
+			],
+			[
+				"handl",
+				"handleSigInt"
+			],
+			[
+				"SIG",
+				"SIGALRM"
+			],
+			[
+				"iAr",
+				"iArgument"
+			],
+			[
+				"exit",
+				"EXIT_FAILURE"
+			],
+			[
+				"state",
+				"STATE_ORDINARY"
+			],
+			[
+				"iArg",
+				"iArgumentNumbers"
+			],
+			[
+				"pc",
+				"pcPgmName"
+			],
+			[
+				"ps",
+				"psCommand"
+			],
+			[
+				"STATE",
+				"STATE_START"
+			],
+			[
+				"token",
+				"TOKEN_ORDINARY"
+			],
+			[
+				"output",
+				"OUTPUT_NO"
+			],
+			[
+				"INPUT",
+				"INPUT_YES"
+			],
+			[
+				"STA",
+				"STATE_QUOTE"
+			],
+			[
+				"oHeap",
+				"oHeapEnd"
+			],
+			[
+				"oHea",
+				"oHeapEnd"
+			],
+			[
+				"Chunk_get",
+				"Chunk_getNextInList"
+			],
+			[
+				"Chunk",
+				"Chunk_isValid"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"chunk_get",
+				"Chunk_getStatus"
+			],
+			[
+				"Chunk_getPre",
+				"Chunk_getPrevInMem"
+			],
+			[
+				"Heap",
+				"HeapMgr_insert"
+			],
+			[
+				"He",
+				"HeapMgr_coalesce"
+			],
+			[
+				"Chunk_set",
+				"Chunk_setStatus"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"backgron",
+				"background-image"
+			],
+			[
+				"backgrou",
+				"background2"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"view",
+				"viewChange"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"reco",
+				"record2"
+			],
+			[
+				"str",
+				"stringpast"
+			],
+			[
+				"make",
+				"makeCashRain"
+			],
+			[
+				"primar",
+				"primary_account"
+			],
+			[
+				"Wallet",
+				"Wallet_2_address"
+			],
+			[
+				"API",
+				"API_SECRET"
+			],
+			[
+				"API_",
+				"API_SECRET"
+			],
+			[
+				"cen",
+				"centroidString"
+			],
+			[
+				"waypoints",
+				"waypoints_limit"
+			],
+			[
+				"js",
+				"jsonData"
+			],
+			[
+				"restauran",
+				"restaurants_id"
+			],
+			[
+				"open",
+				"open_restaurants"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"su",
+				"SurveyResponses"
+			],
+			[
+				"Cho",
+				"CHOICES"
+			],
+			[
+				"tem",
+				"TEMPLATES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 14165,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/HackerPack_Landing.css",
+			"settings":
+			{
+				"buffer_size": 10157,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "sass",
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"indentation",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Linhchi/HackerPack-old",
+		"/Users/Linhchi/HackerPack-old/assets",
+		"/Users/Linhchi/HackerPack-old/assets/css",
+		"/Users/Linhchi/HackerPack-old/assets/js",
+		"/Users/Linhchi/HackerPack-old/images"
+	],
+	"file_history":
+	[
+		"/Users/Linhchi/HackerPack-old/about.html",
+		"/Users/Linhchi/HackerPack-old/assets/css/main.css",
+		"/Users/Linhchi/HackerPack/build/onboarding.html",
+		"/Users/Linhchi/HackerPack/build/css/main.css",
+		"/Users/Linhchi/Documents/hackerpack-demo.html",
+		"/something.js",
+		"/Users/Linhchi/Documents/form1/index.html",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/dynarray.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/lexical.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/dynarray.h",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/ishsyn.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/ish.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/syntactic.h",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/syntactic.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/lexical.h",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/ishlex.c",
+		"/Users/Linhchi/Dropbox/COS 217/Assignment7/syntactic2.c",
+		"/Users/Linhchi/Documents/HackerPack Apps/Brian/hackerpack_part2/main.html",
+		"/Users/Linhchi/Documents/HackerPack Apps/Abu/function.js",
+		"/Users/Linhchi/Documents/HackerPack Apps/Rushy/react/EditableItem.jsx",
+		"/Users/Linhchi/Documents/HackerPack Apps/Rushy/react/EditableSpan.jsx",
+		"/Users/Linhchi/Documents/HackerPack Apps/Rushy/react/EditableList.jsx",
+		"/Users/Linhchi/Documents/HackerPack Apps/Rushy/main.js",
+		"/Users/Linhchi/Documents/HackerPack Apps/Rushy/index.html",
+		"/Users/Linhchi/Documents/HackerPack Apps/Charlie/rehackerpacksecondround/listmaker.html",
+		"/Users/Linhchi/Documents/HackerPack Apps/Manisha/HP_challenge.html",
+		"/Users/Linhchi/Documents/HackerPack Apps/Mohamed/sample2.html",
+		"/Users/Linhchi/Documents/HackerPack Apps/Mohamed/hackerpack.html",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps9_exercise3.tex",
+		"/Users/Linhchi/Documents/HP_challenge.html",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps9_exercise2.tex",
+		"/Users/Linhchi/Dropbox/COS 217/chunk.c",
+		"/Users/Linhchi/Dropbox/COS 217/checker1.c",
+		"/Users/Linhchi/Dropbox/COS 217/checker2.c",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps9_exercise1.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps8_exercise1.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps1_exercise1.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps8_exercise4.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps8_exercise3.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps8_exercise2.tex",
+		"/Users/Linhchi/Dropbox/COS 340/HW/ps8_exercise1 copy.tex",
+		"/Users/Linhchi/HackerPack/contribute.html",
+		"/Users/Linhchi/HackerPack/assets/css/main.css",
+		"/Users/Linhchi/HackerPack/assets/css/projects.css",
+		"/Users/Linhchi/HackerPack/beginner-projects.html",
+		"/Users/Linhchi/HackerPack/images/LinhchiHeadshot2.jpg",
+		"/Users/Linhchi/HackerPack/terminology.html",
+		"/Users/Linhchi/HackerPack/first-hackathon.html",
+		"/Users/Linhchi/HackerPack/resources.html",
+		"/Users/Linhchi/HackerPack/thanks.html",
+		"/Users/Linhchi/HackerPack/best-hackathons.html",
+		"/Users/Linhchi/HackerPack/index.html",
+		"/Users/Linhchi/HackerPack/about.html",
+		"/Users/Linhchi/HackerPack/assets/css/contribute.css",
+		"/Users/Linhchi/HackerPack/script.js",
+		"/Users/Linhchi/HackerPack/error.html",
+		"/Users/Linhchi/HackerPack/beginnerprojects.html",
+		"/Users/Linhchi/HackerPack/firsthackathon.html",
+		"/Users/Linhchi/YouCoin/index.html",
+		"/Users/Linhchi/Documents/l8ZdT4t6T8/index.html",
+		"/Users/Linhchi/HopHacks/templates/base2.html",
+		"/Users/Linhchi/HopHacks/static/css/bootstrap.min.css",
+		"/Users/Linhchi/HopHacks/templates/hello.html",
+		"/Users/Linhchi/HopHacks Winter 2016/youcoinsupreme.py",
+		"/Users/Linhchi/untitled folder 2/server.js",
+		"/Users/Linhchi/untitled folder 2/helloworld.js",
+		"/Users/Linhchi/lowpolybackground/lowpoly.js",
+		"/Users/Linhchi/lowpolybackground/stylesheet.css",
+		"/Users/Linhchi/lowpolybackground/index.html",
+		"/Users/Linhchi/untitled folder/kmeans.py",
+		"/Users/Linhchi/untitled folder/placerequest.py",
+		"/Users/Linhchi/untitled folder/kmeantest.py",
+		"/Users/Linhchi/untitled folder/kmean.py",
+		"/Users/Linhchi/Documents/html5up-spectral copy/index.html",
+		"/Users/Linhchi/Documents/object-master/objects/test/object.css",
+		"/Users/Linhchi/Documents/object-master/objects/hello/object.js",
+		"/Users/Linhchi/Documents/object-master/objects/hello/index.html",
+		"/Users/Linhchi/PSY306/index.html",
+		"/Users/Linhchi/PSY306website/index.html",
+		"/Users/Linhchi/LinhchiNguyen.github.io/stylesheet.css",
+		"/Users/Linhchi/LinhchiNguyen.github.io/index.html",
+		"/Users/Linhchi/voters/voterspref/survey/models.py",
+		"/Users/Linhchi/voters/voterspref/survey/forms.py",
+		"/Users/Linhchi/voters/voterspref/survey/views.py",
+		"/Users/Linhchi/voters/voterspref/templates/results.html",
+		"/Users/Linhchi/voters/voterspref/voterspref/urls.py",
+		"/Users/Linhchi/voters/voterspref/templates/results2.html",
+		"/Users/Linhchi/voters/voterspref/templates/some_template.html",
+		"/Users/Linhchi/voters/voterspref/voterspref/settings.py",
+		"/Users/Linhchi/voters/voterspref/templates/home.html",
+		"/Users/Linhchi/voters/voterspref/templates/results1.html",
+		"/Users/Linhchi/voters/voterspref/survey/backend.py",
+		"/Users/Linhchi/voters/voterspref/survey/dataprocessing.py",
+		"/Users/Linhchi/voters/voterspref/templates/education.html",
+		"/Users/Linhchi/voters/voterspref/templates/veterans.html",
+		"/Users/Linhchi/voters/voterspref/templates/globalwarming.html",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/styleform.css",
+		"/Users/Linhchi/voters/voterspref/templates/minimumwage.html",
+		"/Users/Linhchi/voters/voterspref/templates/healthcare.html",
+		"/Users/Linhchi/voters/voterspref/templates/dealthpenalty.html",
+		"/Users/Linhchi/voters/voterspref/templates/refugees.html",
+		"/Users/Linhchi/voters/voterspref/.gitignore",
+		"/Users/Linhchi/voters/voterspref/templates/marijuana.html",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/style.css",
+		"/Users/Linhchi/voters/voterspref/survey/static/css/stylefacts.css",
+		"/Users/Linhchi/voters/voterspref/templates/abortions.html",
+		"/Users/Linhchi/voters/voterspref/templates/gunsrights.html",
+		"/Users/Linhchi/voters/.gitignore",
+		"/Users/Linhchi/voters/voterspref/survey/templates/some_template.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"panel",
+			"container",
+			"dynarra",
+			"sizeof",
+			"pccomman",
+			"pcOutputFile",
+			"state_output",
+			"malloc",
+			"argument",
+			"ppcArgumen",
+			"oargum",
+			"ppcArguments",
+			"newToken",
+			"pcpgm",
+			"NULL",
+			"test1bad",
+			"getFoot",
+			"oHeap",
+			"ubin",
+			"getUnits",
+			"test1",
+			"oprevchu",
+			"assert",
+			"assert(Checker_isValid(oHeapStart, oHeapEnd, aoBins[], iBinCount));",
+			"assert",
+			"HeapMgr_insert",
+			"insert",
+			"assert",
+			"size_T",
+			"getMore",
+			"RandomFixed",
+			"1",
+			"coalesce",
+			"setstatus",
+			"Erie",
+			"Providence",
+			"binghampton",
+			"next",
+			"h4",
+			"background-image",
+			"padding",
+			"position",
+			"box",
+			"click",
+			"btn",
+			"roboto",
+			"br",
+			"png",
+			"col-xs-6",
+			"container-fluid",
+			"col",
+			"get_authe",
+			"inner",
+			"insideban",
+			"trocchi",
+			"h2",
+			"trocchi",
+			"open",
+			"trocchi",
+			"ABRIL",
+			"OREGANO",
+			"H2",
+			"h2",
+			"head",
+			"C1E1A6",
+			"A8CD1B",
+			"7CEECE",
+			"00cc99",
+			"66ffc2",
+			"2E3842",
+			"color",
+			"53",
+			"35465c",
+			"21b2a6",
+			"color",
+			"is-loading",
+			"10.png",
+			"background-color",
+			"10.png",
+			"3.png",
+			"Hexagon-3.jpg",
+			"container",
+			"ambient",
+			"press",
+			"press space",
+			"ambient",
+			"controls",
+			"openNow",
+			"opennow",
+			"print",
+			"main",
+			"footer",
+			"main",
+			"wrapper",
+			"main",
+			"header",
+			"avatar",
+			"wrapper",
+			"avatar",
+			"wrapper",
+			"is-load",
+			"static"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14165,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										10038,
+										10041
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								13633,
+								13633
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5151.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/HackerPack_Landing.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3667,
+								3473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "HackerPack-old.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
