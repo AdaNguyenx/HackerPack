@@ -223,7 +223,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14165,
+				"buffer_size": 14191,
 				"line_ending": "Windows"
 			}
 		},
@@ -558,7 +558,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14165,
+						"buffer_size": 14191,
 						"regions":
 						{
 							"TagLint":
@@ -568,8 +568,8 @@
 								"regions":
 								[
 									[
-										10038,
-										10041
+										10037,
+										10040
 									]
 								],
 								"scope": "variable.parameter"
@@ -578,8 +578,8 @@
 						"selection":
 						[
 							[
-								13633,
-								13633
+								2991,
+								2991
 							]
 						],
 						"settings":
@@ -590,7 +590,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5151.0,
+						"translation.y": 736.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
