@@ -247,7 +247,7 @@ input {
 p, h1, h3, h4, label{
   color: black;
   text-align: center;
-  font-family: "Avenir Next", Monospace;
+  font-family: "Avenir Next";
 }
 
 .hp-title{
@@ -256,7 +256,7 @@ p, h1, h3, h4, label{
   padding-top: 10px;
   color: black;
   text-align: center;
-  font-family: "Avenir Next", Monospace;
+  font-family: "Avenir Next";
 }
 
 h4{
@@ -275,14 +275,14 @@ label{
   font-size: 28px;
   color: green;
   font-weight: bold;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Avenir Next";
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
 #button {
-  font-family:"Andale Mono", Monospace;
+  font-family:"Avenir Next";
   font-size: 20px;
 }
 
@@ -317,7 +317,7 @@ body {
   
   font-size:1.3em;
   color:#333;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Avenir Next';
 }
 
 section {
@@ -427,13 +427,13 @@ border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
 }*/
 
 h1 {
-  font-family:"Avenir Next", sans-serif;
+  font-family:"Avenir Next";
   font-weight:300;
   font-size:1vmin;
 }
 
 h2, h3 {
-  font-family:"Avenir Next", sans-serif;
+  font-family:"Avenir Next";
   font-weight:300;
   font-size:1.5em;
 /*  margin-top:2em;*/
@@ -459,7 +459,7 @@ p a {
 
 /*------POP UP----------*/
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Avenir Next";
   background: url(4.jpg);
   background-size: cover;
 }
@@ -521,7 +521,7 @@ body {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Avenir Next";
 }
 .popup .close {
   position: absolute;
