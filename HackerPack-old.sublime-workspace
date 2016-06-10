@@ -223,15 +223,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14191,
+				"buffer_size": 14267,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index2.html",
+			"settings":
+			{
+				"buffer_size": 2594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "beginner-projects.html",
+			"settings":
+			{
+				"buffer_size": 11388,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/HackerPack_Landing.css",
 			"settings":
 			{
-				"buffer_size": 10157,
+				"buffer_size": 10054,
 				"line_ending": "Unix"
 			}
 		}
@@ -429,6 +445,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-family",
 			"img",
 			"panel",
 			"container",
@@ -558,7 +575,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14191,
+						"buffer_size": 14267,
 						"regions":
 						{
 							"TagLint":
@@ -568,8 +585,8 @@
 								"regions":
 								[
 									[
-										10037,
-										10040
+										10113,
+										10116
 									]
 								],
 								"scope": "variable.parameter"
@@ -578,8 +595,8 @@
 						"selection":
 						[
 							[
-								13141,
-								13149
+								2837,
+								2837
 							]
 						],
 						"settings":
@@ -590,7 +607,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4923.0,
+						"translation.y": 929.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -598,19 +615,92 @@
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css/HackerPack_Landing.css",
-					"semi_transient": false,
+					"file": "index2.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 10157,
+						"buffer_size": 2594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3667,
-								3473
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "beginner-projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11388,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										11173,
+										11176
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								4113,
+								4099
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1461.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/HackerPack_Landing.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8417,
+								8428
 							]
 						],
 						"settings":
@@ -620,10 +710,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3078.0,
+						"translation.y": 8208.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
