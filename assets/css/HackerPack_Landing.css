@@ -219,6 +219,7 @@ input {
 }
 
 #meetTheTeam{
+  padding-top: 5%;
   margin-top: 15%;
   text-align: center;
 }
@@ -297,7 +298,9 @@ li {
 }
 
 
-
+#meetTheAdvisorsAndMentors {
+  padding-top: 5%;
+}
 
 /*-------------------------------------------*/
 
