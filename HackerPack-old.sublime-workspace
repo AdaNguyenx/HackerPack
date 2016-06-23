@@ -223,7 +223,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16217,
+				"buffer_size": 16401,
 				"line_ending": "Windows"
 			}
 		},
@@ -236,18 +236,18 @@
 			}
 		},
 		{
-			"file": "index2.html",
-			"settings":
-			{
-				"buffer_size": 2594,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "beginner-projects.html",
 			"settings":
 			{
 				"buffer_size": 11388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/projects.css",
+			"settings":
+			{
+				"buffer_size": 3276,
 				"line_ending": "Unix"
 			}
 		}
@@ -319,6 +319,7 @@
 	],
 	"file_history":
 	[
+		"/Users/Linhchi/HackerPack-old/beginner2.html",
 		"/Users/Linhchi/HackerPack-old/about.html",
 		"/Users/Linhchi/HackerPack-old/assets/css/main.css",
 		"/Users/Linhchi/HackerPack/build/onboarding.html",
@@ -445,6 +446,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
 			"font-family",
 			"img",
 			"panel",
@@ -566,7 +568,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -575,7 +577,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16217,
+						"buffer_size": 16401,
 						"regions":
 						{
 							"TagLint":
@@ -595,8 +597,8 @@
 						"selection":
 						[
 							[
-								14440,
-								14440
+								7029,
+								7007
 							]
 						],
 						"settings":
@@ -607,10 +609,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5679.0,
+						"translation.y": 2504.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -626,8 +628,8 @@
 						"selection":
 						[
 							[
-								4467,
-								4467
+								4967,
+								4972
 							]
 						],
 						"settings":
@@ -637,44 +639,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4040.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index2.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2594.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "beginner-projects.html",
 					"semi_transient": false,
 					"settings":
@@ -699,8 +671,8 @@
 						"selection":
 						[
 							[
-								4113,
-								4099
+								3921,
+								3780
 							]
 						],
 						"settings":
@@ -710,10 +682,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1461.0,
+						"translation.y": 1423.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/projects.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2464,
+								1988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
